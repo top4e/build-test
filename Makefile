@@ -6,7 +6,7 @@ COMPILER_PATH = C:\buildtools\Telit\IoT_AppZone_IDE\eclipse\plugins\com.telit.ap
 
 CC = $(COMPILER_PATH)/arm-none-eabi-gcc
 CPP = $(COMPILER_PATH)/arm-none-eabi-g++
-LD = 
+LD = $(COMPILER_PATH)/arm-none-eabi-ld
 CPPFLAGS += -Os -Wno-cast-qual -Wno-write-strings -fdiagnostics-show-option
 LDFLAGS  = --defsym __ROM=0x40000000
 LDFLAGS += --defsym __HEAP_PUB_SIZE=0x40000
