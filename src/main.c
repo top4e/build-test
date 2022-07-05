@@ -2,7 +2,7 @@
 
 static void dump(void)
 {
-    printf("Test\r\n");
+    printf("Test 1\r\n");
 }
 
 int M2MB_main(int argc, char** argv)
